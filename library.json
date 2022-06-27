@@ -1,0 +1,17 @@
+{
+  "name": "reRTC",
+  "version": "1.0.0",
+  "description": "Real time clock service",
+  "keywords": "rtc",
+  "authors":
+  [
+    {
+      "name": "Alexander Razzhivin",
+      "email": "kotyara12@yandex.ru",
+      "url": "https://kotyara12.ru"
+    }
+  ],
+  "license": "MIT",
+  "frameworks": ["arduino", "espidf"],
+  "platforms": ["espressif32"]
+}

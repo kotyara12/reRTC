@@ -1,6 +1,6 @@
 /* 
    RU: Служба часов реального времени
-   EN: Real time clock servicecd
+   EN: Real time clock service
    --------------------------------------------------------------------------------
    (с) 2022 Разживин Александр | Razzhivin Alexander
    kotyara12@yandex.ru | https://kotyara12.ru | tg: @kotyara1971
