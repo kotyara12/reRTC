@@ -11,7 +11,10 @@
 
 #include "project_config.h"
 
-#if CONFIG_RTC_DS1307_INSTALLED
+#if CONFIG_RTC_INSTALLED
+
+#define DS1307 1
+#define DS3231 2
 
 #ifdef __cplusplus
 extern "C" {
@@ -23,6 +26,6 @@ bool rtcStart();
 }
 #endif
 
-#endif // CONFIG_RTC_DS1307_INSTALLED
+#endif // CONFIG_RTC_INSTALLED
 
 #endif // __RE_RTC_H__
