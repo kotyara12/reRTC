@@ -5,6 +5,8 @@
 #include <sys/time.h> 
 #include "project_config.h"
 
+#if CONFIG_RTC_INSTALLED
+
 #if CONFIG_RTC_TYPE == DS1307
   #include "reDS1307.h"
   reDS1307 rtc(CONFIG_RTC_I2C_BUS, DS1307_ADDR);
@@ -49,3 +51,4 @@ bool rtcStart()
   return false;
 }
 
+#endif // CONFIG_RTC_INSTALLED
